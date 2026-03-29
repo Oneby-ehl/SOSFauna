@@ -1,23 +1,29 @@
 {
   "expo": {
-    "name": "Rescate Fauna MVP",
-    "slug": "grefa-rescate-mvp",
-    "scheme": "grefarescate",
-    "version": "0.1.0",
+    "name": "SOS Fauna",
+    "slug": "sos-fauna",
+    "version": "1.0.0",
     "orientation": "portrait",
-    "platforms": ["android"],
-    "android": {
-      "package": "org.grefa.rescatemvp",
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION",
-        "CAMERA"
-      ]
+    "icon": "./assets/icon.png",
+    "scheme": "sosfauna",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1f5f3a"
     },
-    "plugins": [
-      "expo-router",
-      "expo-location",
-      "expo-image-picker"
-    ]
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1f5f3a"
+      },
+      "package": "com.onebyehl.sosfauna"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    }
   }
 }
