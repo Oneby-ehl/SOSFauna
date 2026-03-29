@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Rescate Fauna MVP",
+    "slug": "grefa-rescate-mvp",
+    "scheme": "grefarescate",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "android": {
+      "package": "org.grefa.rescatemvp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-location",
+      "expo-image-picker"
+    ]
+  }
+}
